@@ -1,11 +1,11 @@
-# Kicad backups and cache
+# KiCad backup and lock files
+*.lck
+*-backups/
 *.bak
-*.tmp
-*.kicad_prl
-sym-lib-table-bak
-fp-lib-table-bak
 
-# OS / editor junk
+# History folder
+.history/
+
+# OS files
 .DS_Store
 Thumbs.db
-__pycache__/
