@@ -1,0 +1,404 @@
+## Footprint report - date 2026-06-22T10:31:52
+## Printed by KiCad version 10.0.2-rc1
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner 115.500000 71.000000
+$EndBOARD
+
+$MODULE C1
+reference C1
+value 225K/2.2uF
+footprint Capacitor_THT:C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3
+attribut none
+position 127.000000 78.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000 size  2.400000  2.400000 orientation 0.00
+drill  1.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position 15.000000  0.000000 size  2.400000  2.400000 orientation 0.00
+drill  1.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE C1
+
+$MODULE C2
+reference C2
+value 1000uF
+footprint Capacitor_THT:CP_Radial_D10.0mm_P3.80mm
+attribut none
+position 149.500000 91.700000  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer both
+position  0.000000  0.000000 size  2.000000  2.000000 orientation 270.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  3.800000  0.000000 size  2.000000  2.000000 orientation 270.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE C2
+
+$MODULE C3
+reference C3
+value 0.1uF
+footprint Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
+attribut none
+position 150.500000 85.000000  orientation 180.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000 size  1.600000  1.600000 orientation 180.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.000000  0.000000 size  1.600000  1.600000 orientation 180.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE C3
+
+$MODULE C4
+reference C4
+value 470uF
+footprint Capacitor_THT:CP_Radial_D10.0mm_P5.00mm
+attribut none
+position 170.367677 85.000000  orientation 180.00
+layer front
+$PAD "1"
+Shape Roundrect Layer both
+position  0.000000  0.000000 size  2.000000  2.000000 orientation 180.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.000000  0.000000 size  2.000000  2.000000 orientation 180.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE C4
+
+$MODULE D1
+reference D1
+value 1N4007
+footprint Diode_THT:D_A-405_P10.16mm_Horizontal
+attribut none
+position 134.000000 84.420000  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer both
+position  0.000000  0.000000 size  1.800000  1.800000 orientation 270.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position 10.160000  0.000000 size  1.800000  1.800000 orientation 270.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE D1
+
+$MODULE D2
+reference D2
+value D_Zener
+footprint Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal
+attribut none
+position 159.000000 86.185000  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer both
+position  0.000000  0.000000 size  1.500000  1.500000 orientation 270.00
+drill  0.750000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  7.620000  0.000000 size  1.500000  1.500000 orientation 270.00
+drill  0.750000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE D2
+
+$MODULE D3
+reference D3
+value D_Zener
+footprint Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal
+attribut none
+position 157.500000 98.685000  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer both
+position  0.000000  0.000000 size  1.500000  1.500000 orientation 270.00
+drill  0.750000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  7.620000  0.000000 size  1.500000  1.500000 orientation 270.00
+drill  0.750000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE D3
+
+$MODULE D4
+reference D4
+value LED
+footprint LED_THT:LED_D5.0mm
+attribut none
+position 123.225000 109.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000 size  1.800000  1.800000 orientation 0.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  2.540000  0.000000 size  1.800000  1.800000 orientation 0.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE D4
+
+$MODULE D5
+reference D5
+value 1N4007
+footprint Diode_THT:D_A-405_P10.16mm_Horizontal
+attribut none
+position 140.000000 84.420000  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer both
+position  0.000000  0.000000 size  1.800000  1.800000 orientation 270.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position 10.160000  0.000000 size  1.800000  1.800000 orientation 270.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE D5
+
+$MODULE D6
+reference D6
+value 1N4007
+footprint Diode_THT:D_A-405_P10.16mm_Horizontal
+attribut none
+position 134.000000 99.920000  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer both
+position  0.000000  0.000000 size  1.800000  1.800000 orientation 270.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position 10.160000  0.000000 size  1.800000  1.800000 orientation 270.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE D6
+
+$MODULE D7
+reference D7
+value 1N4007
+footprint Diode_THT:D_A-405_P10.16mm_Horizontal
+attribut none
+position 140.000000 99.920000  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer both
+position  0.000000  0.000000 size  1.800000  1.800000 orientation 270.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position 10.160000  0.000000 size  1.800000  1.800000 orientation 270.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE D7
+
+$MODULE J1
+reference J1
+value Screw_Terminal_01x02
+footprint TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+attribut none
+position 123.867500 101.000000  orientation 90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer both
+position  0.000000  0.000000 size  2.600000  2.600000 orientation 90.00
+drill  1.300000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.000000  0.000000 size  2.600000  2.600000 orientation 90.00
+drill  1.300000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE J1
+
+$MODULE J2
+reference J2
+value Screw_Terminal_01x02
+footprint TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+attribut none
+position 168.000000 98.500000  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer both
+position  0.000000  0.000000 size  2.600000  2.600000 orientation 270.00
+drill  1.300000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.000000  0.000000 size  2.600000  2.600000 orientation 270.00
+drill  1.300000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE J2
+
+$MODULE R1
+reference R1
+value 1M
+footprint Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+attribut none
+position 122.500000 84.040000  orientation 90.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000 size  1.400000  1.400000 orientation 90.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.080000  0.000000 size  1.400000  1.400000 orientation 90.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE R1
+
+$MODULE R2
+reference R2
+value 20K
+footprint Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+attribut none
+position 145.460000 104.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000 size  1.400000  1.400000 orientation 0.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.080000  0.000000 size  1.400000  1.400000 orientation 0.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE R2
+
+$MODULE R3
+reference R3
+value 20K
+footprint Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+attribut none
+position 145.460000 108.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000 size  1.400000  1.400000 orientation 0.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.080000  0.000000 size  1.400000  1.400000 orientation 0.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE R3
+
+$MODULE R4
+reference R4
+value 2.2K
+footprint Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+attribut none
+position 130.500000 112.080000  orientation 90.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000 size  1.400000  1.400000 orientation 90.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.080000  0.000000 size  1.400000  1.400000 orientation 90.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE R4
+
+$MODULE REF**
+reference REF**
+value KiCad-Logo2_6mm_SilkScreen
+footprint Symbol:KiCad-Logo2_6mm_SilkScreen
+attribut virtual
+position 161.500000 104.000000  orientation 180.00
+layer back
+$EndMODULE REF**
+
+$MODULE U1
+reference U1
+value LM7805_TO220
+footprint Package_TO_SOT_THT:TO-220-3_Vertical
+attribut none
+position 149.420000 78.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000 size  1.905000  2.000000 orientation 0.00
+drill  1.100000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  2.540000  0.000000 size  1.905000  2.000000 orientation 0.00
+drill  1.100000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  5.080000  0.000000 size  1.905000  2.000000 orientation 0.00
+drill  1.100000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE U1
+
+$EndDESCRIPTION
